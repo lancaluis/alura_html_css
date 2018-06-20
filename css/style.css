@@ -13,6 +13,7 @@ main{
     box-sizing: border-box;
     margin: 0 auto;
     padding: 30px;
+    padding-bottom: 60px;
 }
 .main-titulo{
     font-size: 60px;
@@ -29,7 +30,7 @@ h2{
     font-size: 30px;
     font-family: "Open Sans Condensed", "Arial", sans-serif;
     clear: both;
-    
+    font-weight: bold;
 }
 p {
     text-align: justify;
@@ -42,6 +43,10 @@ blockquote{
     width: 250px;
     margin: 20px 40px;
     box-sizing: border-box; /*MEDE A PARTIR DAS BORDERS*/
+}
+cite {
+    font-style: italic;
+    float: right;
 }
 .bloco-um{
     float: right;
@@ -57,24 +62,35 @@ blockquote{
    padding: 20px;
    text-align: center;
    float: right;
-   clear: right;
    width: 15%;
    box-sizing: border-box;
+   border-left: 10px solid #000;
+   border-bottom: 10px solid #000;
+   position: relative;
+   top:310px;
 }
 .menu-lateral-titulo{
     font-size: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     text-transform: uppercase;
 }
 .profile-image{
     float:right;
-    width: 15%;
+    border-left: 10px solid black;
+    border-bottom: 10px solid #000;
+    box-sizing: border-box;
+    position: absolute;
+    top:0;
+    right: 0;
 }
 #rodape{ 
     background-color: #000;
     color:#F2FFFC;
     padding: 20px;
     clear: both;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 nav a {
     color: #F2FFFC;
@@ -87,6 +103,7 @@ ul{
 }
 .icones-sociais li{
     display: inline-block;
+    margin-top: 10px;
 }
 .icones-sociais a{
     display: inline-block;
