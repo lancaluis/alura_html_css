@@ -4,49 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Luís Lança - Blog</title>
 </head>
 
 <body>
     <main>
-        <h1>Blog</h1>
+        <h1 class="main-titulo">Blog</h1>
+        <div class="main-conteudo">
+            <article class="artigo">
+                <h2>O essencial de design responsivo</h2>
+                <time datetime="2018-06-01">01 de junho de 2018</time>
+                <p>Design responsivo tem ganho cada vez mais atenção como técnica de desenvolvimento de páginas web para dispositivos
+                    móveis. Mas como começar?</p>
+                <a href="#" class="leia-mais">Leia mais</a>
+                <footer>Tags:
+                    <a href="#">design responsivo</a>,
+                    <a href="#">mobile</a>,
+                    <a href="#">css</a>
+                </footer>
+            </article>
 
-        <article>
-            <h2>O essencial de design responsivo</h2>
-            <time datetime="2018-06-01">01 de junho de 2018</time>
-            <p>Design responsivo tem ganho cada vez mais atenção como técnica de desenvolvimento de páginas web para dispositivos
-                móveis. Mas como começar?</p>
-            <a href="#">Leia mais</a>
-            <footer>Tags:
-                <a href="#">design responsivo</a>,
-                <a href="#">mobile</a>,
-                <a href="#">css</a>
-            </footer>
-        </article>
+            <h2>Por que fazer páginas acessíveis?</h2>
+            <p>Tem se falado cada vez sobre acessibilidade na web. Há diversas técnicas e diretivas a serem seguidas, inclusive
+                da própria W3C. Mas vale a pena investir nisso?</p>
 
-        <h2>Por que fazer páginas acessíveis?</h2>
-        <p>Tem se falado cada vez sobre acessibilidade na web. Há diversas técnicas e diretivas a serem seguidas, inclusive
-            da própria W3C. Mas vale a pena investir nisso?</p>
-
-        <h2>JavaScript não obstrusivo</h2>
-        <p>JavaScript é uma linguagem essencial hoje em dia para criar páginas ricas, interativas e dinâmicas. Porém, há alguns
-            cuidados que devem ser tomados ao colocarmos código JavaScript em nossas páginas.</p>
+            <h2>JavaScript não obstrusivo</h2>
+            <p>JavaScript é uma linguagem essencial hoje em dia para criar páginas ricas, interativas e dinâmicas. Porém, há
+                alguns cuidados que devem ser tomados ao colocarmos código JavaScript em nossas páginas.</p>
+        </div>
     </main>
     <img src="images/eu.jpg" alt="Foto de João da Silva">
-    <aside>
-        <h1>Luís Lança</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">Portfólio</a></li>
-                <li><a href="bio.html">Sobre mim</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contato.html">Contato</a></li>
+    <aside class="menu-lateral">
+            <nav>
+                <h1 class="menu-lateral-titulo">Luís Lança</h1>
+                <a href="index.html">Home</a>
+                <a href="portfolio.html">Portfólio</a>
+                <a href="bio.html">Sobre mim</a>
+                <a href="blog.html">Blog</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+            <ul class="icones-sociais">
+                <li>
+                    <a href="" class="github">
+                        Github
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="twitter">
+                        Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="linkedin">
+                        Linkedin
+                    </a>
+                </li>
             </ul>
-        </nav>
-    </aside>
-    <footer>
+        </aside>
+    <footer id="rodape">
         &copy; Luís Lança 2018.
     </footer>
 </body>
