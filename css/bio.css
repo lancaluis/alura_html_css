@@ -1,0 +1,20 @@
+blockquote{
+    background-color: #D9E5E3;
+    padding: 16px;
+    border: 10px solid #c2ccca;
+    width: 250px;
+    margin: 20px 40px;
+    box-sizing: border-box; /*MEDE A PARTIR DAS BORDERS*/
+}
+cite {
+    font-style: italic;
+    float: right;
+}
+.bloco-um{
+    float: right;
+    margin-right: 5px;
+}
+.bloco-dois{
+    float: left;
+    margin-left: 5px;
+}
